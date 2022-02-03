@@ -1,0 +1,18 @@
+{
+  "name": "wedding_website",
+  "version": "0.1.0",
+  "description": "We're getting married!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "start:dev": "npm run build:dev & npm run start-server"
+  },
+  "author": "Charlotte Ulrich",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1067.0",
+    "react": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "serverless": "^3.1.1"
+  }
+}
